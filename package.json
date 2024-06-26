@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "This is a real estate project",
-  "main": "index.js",
+  "main": "src/index.js",
   "type": "module",
   "scripts": {
-    "test": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "author": "Mudassir Ali",
   "license": "ISC",
@@ -17,5 +17,8 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2"
   }
 }
